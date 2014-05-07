@@ -1,0 +1,38 @@
+.tabContainer {
+    border: 2px solid;
+    float: left;
+    width: 70%;
+    font-size: 35px;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0px;
+}
+
+.tabs{
+    list-style: none;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+    ul.tabs li {
+        display: inline-block;
+        background: none;
+        cursor: pointer;
+        padding: 6px;
+    }
+
+    ul.tabs li.current {
+        display: inline-block;
+        background-color: bisque;
+    }
+
+.tab-content{
+    display: none;
+    background: none;
+    padding: 6px;
+}
+
+    .tab-content.current{
+        background-color: bisque;
+        display: inherit;
+    }

@@ -1,0 +1,43 @@
+body {
+    background-color: burlywood;
+    color: darkblue;
+    font-size: 30px;
+}
+
+.header {
+    text-align: center;
+}
+
+.divSet {
+    color: darkslateblue;
+    background-color: tan;
+    font-size: 30px;
+
+    border: 2px solid;
+    float: left;
+
+    width: 22%;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.divItems {
+    float: left;
+    margin: 0px 40px 10px 10px;
+}
+
+.content {
+    float: left;
+    width: 100%;
+}
+
+a {
+    color: brown;
+}
+
+
+/* Элементы форм */
+input, textarea, select {
+    font-size: 30px;
+}
